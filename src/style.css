@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    margin: 50px 0;
+}
+
+.jokesBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.jokesBlock p {
+    width: 100%;
+    /* background-color: white; */
+    border: 2px solid #F15A24;
+    border-radius: 15px;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App img {
+    width: 300px;
+}
+
+.btnsGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.btnsGroup button {
+    border: 1px solid#F15A24;
+    background-color: transparent;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.listsBlock {
+    width: fit-content;
+    height: 500px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.listsItemBlock {
+    width: 100%;
+    border: 1px solid#F15A24;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listsItemBlock button {
+    background-color: transparent;
+    color: #F15A24;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.imagesBlock {
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .listsItemBlock {
+        width: 75%;
+    }
+}
